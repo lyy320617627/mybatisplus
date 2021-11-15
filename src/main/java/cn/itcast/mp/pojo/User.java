@@ -9,9 +9,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@TableName("tb_user")
+//@TableName("tb_user")
 public class User {
-    @TableId(type = IdType.AUTO)
+//    @TableId(type = IdType.AUTO)
 private Long id;
 private String userName;
 @TableField(select = false)//查询时不返回数据的值
